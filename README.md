@@ -23,8 +23,12 @@ running on a Raspberry Pi 4, powered by solar energy, located in Beira Baixa, Po
 - `guides/` — setup and troubleshooting documentation
 
 ## node
+
 reticulum node id: 2f756995d6febcde6b850c1c005774c7
+
 reach this node: 2f756995d6febcde6b850c1c005774c7:/page/index.mu
+
+
 
 ## license
 
