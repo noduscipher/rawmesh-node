@@ -1,41 +1,37 @@
 # rawmesh-node
 
-Reticulum mesh node setup — RPi4, NomadNet, off-grid configuration and startup scripts.
+Micron pages, notes, and public content for a resilient NomadNet / Reticulum node in Beira Baixa, Portugal.
 
-## about
+This repository gathers the structure and text of the node, including homepage content, about pages, development notes, and lightweight publishing experiments.
 
-This repository documents the setup and configuration of an off-grid Reticulum mesh node
-running on a Raspberry Pi 4, powered by solar energy, located in Beira Baixa, Portugal.
+## Current workflow
 
-## stack
+The live node serves plain Micron pages from:
 
-- Reticulum Network Stack (rnsd)
-- NomadNet (nomadnet daemon)
-- LXMF
-- Raspberry Pi 4
-- Solar powered · off-grid
+`~/.nomadnetwork/storage/pages`
 
-## contents
+Main homepage file:
 
-- `config/` — Reticulum interface configuration
-- `scripts/` — startup and backup scripts
-- `pages/` — NomadNet Micron pages (.mu)
-- `guides/` — setup and troubleshooting documentation
+`index.mu`
 
-## node
+Typical workflow:
 
-reticulum node id: 2f756995d6febcde6b850c1c005774c7
+1. Edit pages locally or through SSH on the Raspberry Pi node.
+2. Keep content raw and minimal so that any NomadNet client can render it cleanly.
+3. Create a backup before changing important pages.
+4. Publish updates by replacing the corresponding `.mu` files in the live pages directory.
+5. Verify the result in NomadNet-compatible clients such as MeshChatX and related tools.
 
-reach this node: 2f756995d6febcde6b850c1c005774c7:/page/index.mu
+## Notes
 
+This project grows step by step in cooperation with nature, with a focus on resilient communication, quiet tools, and minimal publishing.
 
-
-## license
-
-Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+Licensing is handled carefully per file or per work where applicable.
 
 ---
 
-*walk quietly, but keep the signal alive.*
+Licensed under CC BY-SA 4.0  
+https://creativecommons.org/licenses/by-sa/4.0/
 
-₿uilt with Love  🧡  in cooperation with Nature  🌿
+*walk quietly, but keep the signal alive.*  
+₿uilt with Love 🧡 in cooperation with Nature 🌿
