@@ -1,0 +1,15 @@
+# rawmesh-node docs
+
+Guides for configuring a Reticulum mesh node on Raspberry Pi 4.
+
+## Portuguese (PT)
+
+- `docs/pt/DESKTOP-DAILY-DRIVER.md`
+- `docs/pt/LAPTOP-DAILY-DRIVER.md`
+- `docs/pt/ONTHEGO.md`
+
+## English (EN)
+
+- `docs/en/DESKTOP-DAILY-DRIVER.md`
+- `docs/en/LAPTOP-DAILY-DRIVER.md`
+- `docs/en/ONTHEGO.md`
