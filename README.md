@@ -1,31 +1,49 @@
-# CypherTools
+# rawmesh-node
 
-Applied cryptography notes, PGP tools, Templar cipher references and modern encryption practices. This repository is a living notebook of how I actually use encryption in day‑to‑day work: generating and managing keys, encrypting files and messages, and integrating modern tools into an off‑grid communication stack.
+Reticulum mesh node setup on Raspberry Pi 4, with NomadNet, LXMF and off‑grid–ready configuration.
+
+This repository documents how to build and maintain a small, resilient mesh node that can run 24/7 on low power, serve local content, and provide messaging over Reticulum.
+
+## What this is
+
+rawmesh-node is a practical reference for:
+
+- installing and configuring Reticulum on a Raspberry Pi 4  
+- running NomadNet to serve local Micron pages over the mesh  
+- exposing LXMF endpoints for bots and direct messaging  
+- preparing the node for off‑grid use (low power, solar‑ready)
+
+It is not a one‑click installer. It is a set of opinionated steps and configs that you can adapt to your own environment.
 
 ## Contents
 
-- Practical notes on OpenPGP / GnuPG usage
-- Key management workflows (backup, revocation, subkeys)
-- File and message encryption with modern tools (age, minisign, etc.)
-- References to historical ciphers (e.g. Templar cipher) and their modern reinterpretations
-- Shell scripts and snippets that tie these tools into everyday use
+The `docs/` directory contains:
 
-## Scope and philosophy
+- system preparation and base OS setup for RPi4  
+- Reticulum configuration and interface examples  
+- NomadNet setup and content layout  
+- LXMF basics for announcements and bots  
+- notes on off‑grid / solar power planning for the node
 
-This is not a cryptography textbook.
+As the project evolves, more detailed guides for specific roles (gateway, local hub, archive node) may be added.
 
-The focus here is:
+## Relationship to other projects
 
-- applied, **real** workflows that can be used today  
-- tools that run well on Unix‑like systems and low‑power hardware  
-- patterns that integrate cleanly with decentralised communication (Reticulum, NomadNet, LXMF, Meshtastic, etc.)  
+- **mesh-guides** – Meshtastic EU868 operation guides (PT/EN/ES), focused on radio presets, roles and regulatory context.  
+  Use those guides if you are working with Meshtastic nodes:
+  - https://github.com/noduscypher/mesh-guides
 
-When in doubt, preference goes to simplicity, auditability and long‑term survivability of keys and data.
+- **tdeck-guides** – device‑specific documentation for LILYGO® T‑Deck / T‑Deck Plus running Meshtastic.  
+  Use those guides for handheld Meshtastic devices:
+  - https://github.com/noduscypher/tdeck-guides
+
+rawmesh-node focuses on the **Reticulum backbone** side: always‑on, low‑power nodes that carry traffic and host services for the mesh.
 
 ## Status
 
-CypherTools is a personal reference that evolves over time as tools and practices change.  
-Expect incremental updates rather than big versioned releases.
+This repository reflects a working setup in Beira Baixa, Portugal, and is updated as the underlying node configuration improves.
+
+Expect incremental updates rather than versioned releases.
 
 ## License
 
