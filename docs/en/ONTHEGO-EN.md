@@ -1,3 +1,13 @@
+> ℹ️ Before you start  
+> This guide describes an **on‑the‑go / field** profile – a mobile kit for travel, remote work and moving around, connecting to the Reticulum network when possible.  
+> The goal is a node that is easy to carry and can talk to the rawmesh-node and other peers, without depending on central infrastructure.  
+> It is not a large‑scale network planning guide, but a specific portable profile.  
+> If you combine this with Meshtastic radios in EU868, use the technical and regulatory recommendations in:  
+> https://github.com/noduscypher/mesh-guides
+
+
+
+
 # R A W M E S H · O N T H E G O
 last updated: 2026-05
 
