@@ -1,37 +1,32 @@
-# rawmesh-node
+# CypherTools
 
-Micron pages, notes, and public content for a resilient NomadNet / Reticulum node in Beira Baixa, Portugal.
+Applied cryptography notes, PGP tools, Templar cipher references and modern encryption practices. This repository is a living notebook of how I actually use encryption in day‑to‑day work: generating and managing keys, encrypting files and messages, and integrating modern tools into an off‑grid communication stack.
 
-This repository gathers the structure and text of the node, including homepage content, about pages, development notes, and lightweight publishing experiments.
+## Contents
 
-## Current workflow
+- Practical notes on OpenPGP / GnuPG usage
+- Key management workflows (backup, revocation, subkeys)
+- File and message encryption with modern tools (age, minisign, etc.)
+- References to historical ciphers (e.g. Templar cipher) and their modern reinterpretations
+- Shell scripts and snippets that tie these tools into everyday use
 
-The live node serves plain Micron pages from:
+## Scope and philosophy
 
-`~/.nomadnetwork/storage/pages`
+This is not a cryptography textbook.
 
-Main homepage file:
+The focus here is:
 
-`index.mu`
+- applied, **real** workflows that can be used today  
+- tools that run well on Unix‑like systems and low‑power hardware  
+- patterns that integrate cleanly with decentralised communication (Reticulum, NomadNet, LXMF, Meshtastic, etc.)  
 
-Typical workflow:
+When in doubt, preference goes to simplicity, auditability and long‑term survivability of keys and data.
 
-1. Edit pages locally or through SSH on the Raspberry Pi node.
-2. Keep content raw and minimal so that any NomadNet client can render it cleanly.
-3. Create a backup before changing important pages.
-4. Publish updates by replacing the corresponding `.mu` files in the live pages directory.
-5. Verify the result in NomadNet-compatible clients such as MeshChatX and related tools.
+## Status
 
-## Notes
+CypherTools is a personal reference that evolves over time as tools and practices change.  
+Expect incremental updates rather than big versioned releases.
 
-This project grows step by step in cooperation with nature, with a focus on resilient communication, quiet tools, and minimal publishing.
+## License
 
-Licensing is handled carefully per file or per work where applicable.
-
----
-
-Licensed under CC BY-SA 4.0  
-https://creativecommons.org/licenses/by-sa/4.0/
-
-*walk quietly, but keep the signal alive.*  
-₿uilt with Love 🧡 in cooperation with Nature 🌿
+This project is distributed under the terms described in the `LICENSE` file in this repository.
