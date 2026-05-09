@@ -1,8 +1,8 @@
 > ℹ️ Antes de começar  
-> Este guia descreve um perfil **desktop daily driver** ligado em permanência à rede Reticulum (iMac / workstation ou máquina equivalente).  
-> O foco está em ter um nó estável para uso diário (trabalho, navegação, terminais) que também participa na malha (Reticulum + NomadNet/LXMF).  
-> Não é um guia legal nem de planeamento de rede em larga escala – é um perfil prático para um único nó.  
-> Se também utilizas Meshtastic em EU868, usa o repositório `mesh-guides` para presets, roles e notas regulatórias:  
+> Este guia descreve um perfil **on‑the‑go / campo** – um kit móvel pensado para viagens, trabalho remoto e uso em movimento, ligado à rede Reticulum quando possível.  
+> O objetivo é ter um nó fácil de transportar que consiga falar com o rawmesh-node e outros nós, sem depender de infraestruturas centrais.  
+> Não é um guia de planeamento de redes grandes, mas sim um perfil portátil específico.  
+> Se estiveres a combinar isto com rádios Meshtastic em EU868, usa as recomendações técnicas e regulatórias em:  
 > https://github.com/noduscypher/mesh-guides
 
 
