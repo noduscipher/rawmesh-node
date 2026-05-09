@@ -1,3 +1,12 @@
+> ℹ️ Before you start  
+> This guide describes a **desktop daily driver** profile permanently connected to the Reticulum network (iMac / workstation or similar machine).  
+> The focus is on having a stable everyday node (work, browsing, terminals) that also participates in the mesh (Reticulum + NomadNet/LXMF).  
+> It is not a legal guide and not a full network design manual – it is a practical profile for a single node.  
+> If you also use Meshtastic in EU868, refer to the `mesh-guides` repository for presets, roles and regulatory notes:  
+> https://github.com/noduscypher/mesh-guides
+
+
+
 # MESH DAILY DRIVER
 last updated: 2026-05
 
