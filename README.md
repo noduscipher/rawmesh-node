@@ -18,6 +18,12 @@ It is not a one‑click installer. It is a set of opinionated steps and configs 
 ## Contents
 
 The `docs/` directory contains:
+### System manuals
+
+For a consolidated, end‑to‑end view of how the Raspberry Pi node, desktop and laptop fit together (Reticulum, NomadNet, Micron, MeshChatX, LXMF), see:
+
+- `docs/en/mesh-nomadnet-hardcoreguide-PUBLIC-EN.md` – Mesh & NomadNet hardcore guide (public EN)
+- `docs/pt/mesh-nomadnet-hardcoreguide-PUBLIC-PT.md` – Guia hardcore Mesh & NomadNet (edição pública PT)
 
 - system preparation and base OS setup for RPi4  
 - Reticulum configuration and interface examples  
