@@ -1,15 +1,13 @@
-# rawmesh-node docs
+### Daily driver guides
 
-Guides for configuring a Reticulum mesh node on Raspberry Pi 4.
+**Portuguese (PT)**
 
-## Portuguese (PT)
+- [`docs/pt/DESKTOP-DAILY-DRIVER.md`](docs/pt/DESKTOP-DAILY-DRIVER.md)
+- [`docs/pt/LAPTOP-DAILY-DRIVER.md`](docs/pt/LAPTOP-DAILY-DRIVER.md)
+- [`docs/pt/ONTHEGO.md`](docs/pt/ONTHEGO.md)
 
-- `docs/pt/DESKTOP-DAILY-DRIVER.md`
-- `docs/pt/LAPTOP-DAILY-DRIVER.md`
-- `docs/pt/ONTHEGO.md`
+**English (EN)**
 
-## English (EN)
-
-- `docs/en/DESKTOP-DAILY-DRIVER.md`
-- `docs/en/LAPTOP-DAILY-DRIVER.md`
-- `docs/en/ONTHEGO.md`
+- [`docs/en/DESKTOP-DAILY-DRIVER.md`](docs/en/DESKTOP-DAILY-DRIVER.md)
+- [`docs/en/LAPTOP-DAILY-DRIVER.md`](docs/en/LAPTOP-DAILY-DRIVER.md)
+- [`docs/en/ONTHEGO.md`](docs/en/ONTHEGO.md)
