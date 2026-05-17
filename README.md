@@ -108,7 +108,7 @@ No sats? Carry the signal further: share it, mirror it, translate it, remix it.
 
 ## ☥ License
 
-Distribution terms are described in the [`LICENSE`](LICENSE) file in this repository.
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ---
 
